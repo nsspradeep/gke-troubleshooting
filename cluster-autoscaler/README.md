@@ -42,9 +42,7 @@ Create GKE cluster using below gcloud command:
  
 ```shell
 gcloud beta container clusters create test-cluster-2 \
- --cluster-version=1.12.8-gke.10 \
  --zone=us-west2-a \
- --node-version=1.12.8-gke.10 \
  --num-nodes=3 \
  --machine-type=n1-standard-4 \
  --disk-size=100 \
